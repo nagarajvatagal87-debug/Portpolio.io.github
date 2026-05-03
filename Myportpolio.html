@@ -122,7 +122,7 @@
     /* ====== ABOUT ====== */
     #about { padding:7rem 4rem; display:grid; grid-template-columns:1fr 1fr; gap:5rem; align-items:center; }
     .about-photo { position:relative; display:flex; justify-content:center; }
-    .photo-frame { width:300px; height:300px; border-radius:16px; background:var(--card); border:1px solid var(--border); display:flex; align-items:center; justify-content:center; color:var(--neon-purple); position:relative; overflow:hidden; box-shadow:0 0 60px rgba(191,0,255,0.15); animation:photoFloat 4s ease-in-out infinite; }
+    .photo-frame { width:350px; height:580px; border-radius:20px; background:var(--card); border:1px solid var(--border); display:flex; align-items:center; justify-content:center; color:var(--neon-purple); position:relative; overflow:hidden; box-shadow:0 0 60px rgba(191,0,255,0.15); animation:photoFloat 4s ease-in-out infinite; }
     @keyframes photoFloat { 0%,100%{transform:translateY(0);} 50%{transform:translateY(-12px);} }
     .photo-frame::before { content:''; position:absolute; top:-2px; left:-2px; right:-2px; bottom:-2px; border-radius:18px; background:linear-gradient(135deg,var(--neon-purple),var(--neon-pink),var(--neon-blue),var(--neon-purple)); z-index:-1; animation:borderRotate 4s linear infinite; background-size:300% 300%; }
     @keyframes borderRotate { 0%{background-position:0% 50%;} 50%{background-position:100% 50%;} 100%{background-position:0% 50%;} }
@@ -491,7 +491,7 @@
   <div class="about-photo reveal">
     <div class="photo-ring"></div><div class="photo-ring"></div>
     <div class="photo-frame">
-      <img src="portpoliopro/assets/Nagu%20photo.jpeg" alt="Nagaraj"
+      <img src="portpoliopro/assets/raju.jpeg" alt="Nagaraj"
         onerror="this.style.display='none'; document.getElementById('fallback').style.display='flex'"/>
       <div id="fallback" style="display:none;position:absolute;inset:0;align-items:center;justify-content:center;font-size:6rem;"><i class="fas fa-user-astronaut"></i></div>
       <div class="corner-tag">MCA STUDENT</div>
